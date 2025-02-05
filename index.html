@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Calculadora super jugos de limón</title>
+</head>
+<body>
+  <div id="container">
+    <div id="title-container">
+      <h1 id="title">Calculadora de súper jugo de limón</h1>
+    </div>
+          <div id="input-container">
+            <label for="input">
+              Cantidad deseada</br>
+              <input type="number" min="0" max="100000" id="input" placeholder="Indique cantidad en mililitros o peso de pieles">
+            </label>
+            <button id="button-volume">Hacer cálculo por volumen</button>
+            <button id="button-peels">Hacer cálculo por peso de pieles</button>
+   </div>
+        <div id="products-container">
+            <div class="product-item">
+              <strong>Piel de limón</strong>
+              <div>
+                <span id="lemon-quantity">0 gr</span>
+              </div>
+            </div>
+            <div class="product-item">
+              <strong>Ácido cítrico</strong>
+              <div>
+                <span id="acid-quantity">0 gr</span>
+              </div>
+            </div>
+            <div class="product-item">
+              <strong>Agua</strong>
+              <div>
+                <span id="water-quantity">0 ml</span>
+              </div>
+            </div>
+            <div class="product-item">
+              <strong>Volumen total</strong>
+              <div>
+                <span id="total-volume">0 ml</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      <script src="./src/script/index.js"></script>
+</body>
+</html>
