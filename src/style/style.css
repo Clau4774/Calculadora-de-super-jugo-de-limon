@@ -91,12 +91,12 @@ button {
 }
 
 .product-item {
-    border-top: var(--border-medium) solid var(--border-color);
+
     padding: .25rem 1.25rem;
     border-radius: var(--rounded);
     width: 95%;
     margin: .55rem 0;
-    box-shadow: var(--border-color) 0px 3px 1px 1px;
+
 }
 
 .product-item>strong {
