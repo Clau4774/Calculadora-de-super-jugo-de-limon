@@ -115,6 +115,10 @@ button {
     border-radius: var(--rounded)
 }
 
+.cafecito {
+    margin-top: 1rem;
+}
+
 
 
 @media (min-width: 650px) {
@@ -132,5 +136,10 @@ button {
 
     #products-container {
         max-width: 740px;
+    }
+
+    .cafecito {
+        display: flex;
+        justify-content: center;
     }
 }
