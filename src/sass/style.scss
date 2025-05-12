@@ -18,7 +18,7 @@ h1 {
     margin: 1rem;
     padding: 2rem;
     background: $lightGray;
-    max-width: 750px;
+    max-width: 450px;
     @include radius;
     div {
         @include bShadow($x:4px, $y: 4px, $intencity: 4px, $color: #444);
