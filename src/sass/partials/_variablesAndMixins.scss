@@ -1,0 +1,24 @@
+//variables
+
+$lightGray: #cdcdcd;
+$mediumGray: #777;
+$darkGray: #333;
+$generalDeg: 145deg;
+
+//mixins
+@mixin radius($rad: 5px) {
+    border-radius: $rad;
+}
+
+@mixin bShadow($x: 2px, $y: 2px, $intencity: 2px, $color: $mediumGray){
+    box-shadow: $x $y $intencity $color;
+}
+
+@mixin tShadow($x: 2px, $y: 2px, $fontColor: #fff, $shadowColor: $darkGray){
+    color: $fontColor;
+    text-shadow: $x $y $shadowColor;
+}
+
+@mixin lGradient($deg: $generalDeg, $firstColor: $lightGray, $secondColor: $mediumGray) {
+    background: linear-gradient($deg, $firstColor, $secondColor);
+}

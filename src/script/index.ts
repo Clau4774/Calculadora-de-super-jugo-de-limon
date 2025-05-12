@@ -8,11 +8,11 @@ const superJuiceCalculator = (type: string): void => {
 
   if (inputValue <= 0) return alert("Tenes que ingresar un valor mayor a 0");
 
-  const lemonSpan = document.querySelector<HTMLSpanElement>("#lemon-quantity");
-  const acidSpan = document.querySelector<HTMLSpanElement>("#acid-quantity");
-  const waterSpan = document.querySelector<HTMLSpanElement>("#water-quantity");
+  const lemonSpan = document.querySelector<HTMLSpanElement>(".lemon-quantity");
+  const acidSpan = document.querySelector<HTMLSpanElement>(".acid-quantity");
+  const waterSpan = document.querySelector<HTMLSpanElement>(".water-quantity");
   const totalVolumenSpan =
-    document.querySelector<HTMLSpanElement>("#total-volume");
+    document.querySelector<HTMLSpanElement>(".total-volume");
 
   switch (type) {
     case "volume":
